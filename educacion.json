@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Técnico Superior en Gestión y Producción Agropecuaria",
+    "institucion": "IES N°10",
+    "periodo": "2017 - 2019",
+    "descripcion": "Especialización en frutihorticultura con enfoque en producción sostenible."
+  },
+  {
+    "titulo": "Analista Programador Universitario",
+    "institucion": "Universidad Nacional de Jujuy",
+    "periodo": "En curso",
+    "descripcion": "Formación en desarrollo de software, algoritmos y estructuras de datos."
+  },
+  {
+    "titulo": "Diplomatura en Administración a Instituciones",
+    "institucion": "Universidad Nacional de Jujuy",
+    "periodo": "2024",
+    "descripcion": "Gestión administrativa y organizacional de instituciones."
+  }
+]

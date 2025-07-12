@@ -1,0 +1,53 @@
+[
+  {
+    "nombre": "HTML5",
+    "icono": "fab fa-html5",
+    "color": "text-danger",
+    "porcentaje": 90
+  },
+  {
+    "nombre": "CSS3",
+    "icono": "fab fa-css3-alt",
+    "color": "text-primary",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "Bootstrap",
+    "icono": "fab fa-bootstrap",
+    "color": "",
+    "porcentaje": 80,
+    "estilo": "background-color: #6f42c1"
+  },
+  {
+    "nombre": "JavaScript",
+    "icono": "fab fa-js-square",
+    "color": "text-warning",
+    "porcentaje": 75
+  },
+  {
+    "nombre": "React",
+    "icono": "fab fa-react",
+    "color": "text-info",
+    "porcentaje": 70
+  },
+  {
+    "nombre": "SQL",
+    "icono": "fas fa-database",
+    "color": "text-secondary",
+    "porcentaje": 80
+  },
+  {
+    "nombre": "Power BI",
+    "icono": "fas fa-chart-line",
+    "color": "text-success",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "Excel",
+    "icono": "fas fa-file-excel",
+    "color": "",
+    "porcentaje": 90,
+    "estilo": "background-color: #1d6f42"
+  }
+]
+

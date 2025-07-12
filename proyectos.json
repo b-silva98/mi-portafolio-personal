@@ -1,0 +1,60 @@
+[
+  {
+    "titulo": "Calculadora de Plazo Fijo",
+    "descripcion": "Simulador en línea para calcular intereses con TNA personalizada y diferentes períodos de capitalización.",
+    "imagen": "./assets/proyecto-ejemplo.png.jfif",
+    "alt": "Calculadora Plazo Fijo",
+    "tecnologias": ["JavaScript", "Bootstrap"],
+    "colores": ["bg-primary", "bg-success"],
+    "demo": "#",
+    "repositorio": "https://github.com/usuario/calculadora-plazo-fijo"
+  },
+  {
+    "titulo": "Sistema de Gestión de Fincas",
+    "descripcion": "Aplicación web para registrar cultivos, plagas, tratamientos y rendimiento con informes personalizados.",
+    "imagen": "./assets/proyecto-ejemplo.png.jfif",
+    "alt": "Sistema Gestión Fincas",
+    "tecnologias": ["React", "SQL"],
+    "colores": ["bg-info", "bg-secondary"],
+    "demo": "#",
+    "repositorio": "https://github.com/usuario/calculadora-plazo-fijo"
+  },
+  {
+    "titulo": "Dashboard Agroanalítico",
+    "descripcion": "Panel de control interactivo para visualización de datos productivos y análisis de tendencias.",
+    "imagen": "./assets/proyecto-ejemplo.png.jfif",
+    "alt": "Dashboard Agro",
+    "tecnologias": ["Power BI", "Excel"],
+    "colores": ["bg-success", "bg-warning"],
+    "demo": "#",
+    "repositorio": "https://github.com/usuario/calculadora-plazo-fijo"
+  },
+  {
+    "titulo": "Sistema de Gestión E-Commerce",
+    "descripcion": "Aplicación front-end para gestión de usuarios, productos y comentarios con dashboard analítico. Incluye: CRUD completo, autenticación JWT, integración con APIs externas (DummyJSON, Advice Slip), gráficos estadísticos y exportación a PDF.",
+    "imagen": "./assets/5860.jpg",
+    "alt": "Dashboard E-Commerce",
+    "tecnologias": [
+        "React",
+        "React Router",
+        "Recharts",
+        "jsPDF",
+        "DummyJSON API",
+        "React Toastify",
+        "GitFlow"
+    ],
+    "colores": ["bg-primary", "bg-info", "bg-success", "bg-primary", "bg-danger", "bg-success", "bg-secondary" ],
+    "demo": "#",
+    "caracteristicas": [
+        "Gestión completa de usuarios (CRUD + roles)",
+        "Catálogo de productos con filtros avanzados",
+        "Sistema de comentarios con moderación",
+        "Dashboard analítico con métricas clave",
+        "Autenticación JWT y protección de rutas",
+        "Integración con API de consejos aleatorios",
+        "Exportación de reportes en PDF",
+        "Validación de formularios y manejo de errores"   
+    ],
+    "repositorio": "https://gitlab.com/programacion-visual-2025/team-bjj-ecommerce.git"
+}
+]
