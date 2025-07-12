@@ -42,3 +42,46 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const submitBtn = this.querySelector('button[type="submit"]');
+    const originalBtnText = submitBtn.innerHTML;
+
+    // Mostrar estado de carga
+    submitBtn.disabled = true;
+    submitBtn.innerHTML =
+      '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Enviando...';
+
+    emailjs
+      .sendForm("service_w7hbeod", "template_q6z9b0q", this)
+      .then(
+        function (response) {
+          // Mostrar mensaje de éxito
+          document.getElementById("success-message").classList.remove("d-none");
+          document.getElementById("error-message").classList.add("d-none");
+
+          // Resetear formulario
+          document.getElementById("contact-form").reset();
+
+          // Ocultar mensaje después de 5 segundos
+          setTimeout(() => {
+            document.getElementById("success-message").classList.add("d-none");
+          }, 5000);
+        },
+        function (error) {
+          // Mostrar mensaje de error
+          document.getElementById("error-message").classList.remove("d-none");
+          document.getElementById("success-message").classList.add("d-none");
+          console.error("Error al enviar:", error);
+        }
+      )
+      .finally(function () {
+        // Restaurar botón
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      });
+  });
